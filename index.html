@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg" style="background-color: skyblue;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contact Us
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Email</a></li>
+                  <li><a class="dropdown-item" href="#">Phone</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <!--Form-->
+      <h2>Form</h2>
+      <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <form>
+                    <label class="form-label">Your Name</label>
+                    <input class="form-control" type="text" /> <br />
+                    <label class="form-label">Your Email</label>
+                    <input class="form-control" type="email" /> <br />
+                    <label class="form-label">Your Password</label>
+                    <input class="form-control" type="password" /> <br />
+                    <label class="form-label">Your Date Of Birth</label>
+                    <input class="form-control" type="date" /> <br />
+                    <label class="form-label">Your Gender</label>
+                    <select class="form-select">
+                      <option>Male</option>
+                      <option>Female</option>
+                      <option>Other</option>
+                    </select> <br>
+                    <label class="form-label">Academics Completed</label>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input">
+                      <label class="form-check-label">JSC</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input">
+                      <label class="form-check-label">SSC</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input">
+                      <label class="form-check-label">HSC</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input">
+                      <label class="form-check-label">Bachelors</label>
+                    </div> <br>
+                    <label class="form-label">What do u want to apply for?</label>
+                    <div class="form-check">
+                      <input type="radio" name="postgrad" class="form-check-input">
+                      <label class="form-check-label">Masters</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="radio" name="postgrad" class="form-check-input">
+                      <label class="form-check-label">Phd</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="radio" name="postgrad" class="form-check-input">
+                      <label class="form-check-label">Diploma</label>
+                    </div> 
+                  </form>
+            </div>
+        </div>
+      </div>
+      <hr>
+      <!--Dropdown-->
+      <h2>Dropdown</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div class="dropdown">
+              <button class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown">Which country you wanna go to?</button>
+              <ul class="dropdown-menu">
+                <li class="dropdown-item">Canada</li>
+                <li class="dropdown-item">Australia</li>
+                <li class="dropdown-item">USA</li>
+                <li class="dropdown-item">UK</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <!--List-Group-->
+      <h2>List-Group</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <p>Here is a list of students along with their ID's, make a table of their CGPA , Name and ID .</p>
+            <ul class="list-group">
+              <li class="list-group-item">ID-32 ; Name-Antara</li>
+              <li class="list-group-item">ID-37 ; Name-Rayshad</li>
+              <li class="list-group-item">ID-69 ; Name-Rifah</li>
+              <li class="list-group-item">ID-21 ; Name-Labibah</li>
+              <li class="list-group-item">ID-59 ; Name-Niaz</li>
+              <li class="list-group-item">ID-23 ; Name-rhydita</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <!--Table-->
+      <h2>Table</h2>
+      <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>ID</th>
+                        <th>CGPA</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Labibah</td>
+                        <td>21</td>
+                        <td>3.36</td>
+                      </tr>
+                      <tr class="table-danger">
+                        <td>Rhydita</td>
+                        <td>23</td>
+                        <td>2.55</td>
+                      </tr>
+                      <tr class="table-success">
+                        <td>Antara</td>
+                        <td>32</td>
+                        <td>3.59</td>
+                      </tr>
+                      <tr>
+                        <td>Rayshad</td>
+                        <td>37</td>
+                        <td>3.53</td>
+                      </tr>
+                      <tr>
+                        <td>Niaz</td>
+                        <td>59</td>
+                        <td>3.36</td>
+                      </tr>
+                      <tr>
+                        <td>Rifah</td>
+                        <td>69</td>
+                        <td>3.52</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+      </div>
+      <hr>
+      <!--Card-->
+      <h2>Card</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <div class="card w-100 p-5">
+              <img class="card-img-top img-fluid" src= "https://www.hubspot.com/hubfs/mandela.webp" >
+              <div class="card-body">
+                <h4 class="card-title">Quotes</h4>
+                <p class="card-text">Nelson Mandela's quote highlights the importance of resilience and perseverance. It suggests that true success and fulfillment come not from avoiding failures, but from having the strength to rise and keep going after every setback.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-2"></div>
+          <div class="col-5">
+            <div class="card w-100 p-5">
+              <img class="card-img-top img-fluid" src= "https://www.hubspot.com/hubfs/cameron.webp" >
+              <div class="card-body">
+                <h4 class="card-title">Quotes</h4>
+                <p class="card-text">James Cameron's quote emphasizes the value of aiming for ambitious goals. Even if you fall short, your efforts and outcomes will still surpass the average successes of others, pushing you closer to greatness, and setting new standards of achievement for yourself.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <!--Buttons-->
+      <h2>Buttons</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <button type="button" class="btn btn-info btn-lg">Submit</button>
+            <button type="button" class="btn btn-outline-info">Submit</button>
+            <button type="button" class="btn btn-warning text-white">Submit</button>
+            <button type="button" class="btn btn-outline-warning rounded-pill">Submit</button>
+            <button type="button" class="btn btn-primary disabled">Submit</button>
+
+          </div>
+          <div class="col-6">
+            <button type="button" class="btn btn-success text-lowercase">Submit</button>
+            <button type="button" class="btn btn-success text-uppercase">Submit</button>
+            <button type="button" class="btn btn-danger text-white btn-sm">Submit</button>
+            <button type="button" class="btn btn-outline-danger rounded-circle ">Submit</button>
+            <button type="button" class="btn btn-outline-primary shadow-lg rounded">Submit</button>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <!--progress bar-->
+      <h2>Progress Bar</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div class="progress">
+              <div class="progress-bar" style="width: 70.99%;">70.99% progress done</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <!--Pagination-->
+      <h2>Pagination</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <nav>
+              <ul class="pagination">
+                <li class="page-item">
+                  <a href="#" class="page-link">Prev</a>
+                </li>
+                <li class="page-item">
+                  <a href="#" class="page-link">2</a>
+                </li>
+                <li class="page-item">
+                  <a href="#" class="page-link">3</a>
+                </li>
+                <li class="page-item active">
+                  <a href="#" class="page-link">4</a>
+                </li>
+                <li class="page-item">
+                  <a href="#" class="page-link">Next</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>

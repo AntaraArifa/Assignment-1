@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: white;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+hr{
+    border: none;
+    background-color: skyblue;
+    height: 10px;
+}
+
+form{
+    background-color: skyblue;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.list-group{
+    background-color: skyblue;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.card{
+    background-color: skyblue;
+}
+
+button {
+    margin: 10px;
+}
+
